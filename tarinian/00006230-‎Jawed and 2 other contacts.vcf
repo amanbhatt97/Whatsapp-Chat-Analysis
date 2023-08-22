@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Jawed;;;
+FN:Jawed
+item1.TEL;waid=918266913598:+91 82669 13598
+item1.X-ABLabel:Mobile
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:Bhai;Saquib;;;
+FN:Saquib Bhai
+item1.TEL;waid=919412474824:+91 94124 74824
+item1.X-ABLabel:Mobile
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;Sardar;;;
+FN:Sardar
+item1.TEL;waid=918439048427:+91 84390 48427
+item1.X-ABLabel:Mobile
+END:VCARD

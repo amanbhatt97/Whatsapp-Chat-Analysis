@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ticket;Waseem;Civil;;
+FN:Waseem Civil Ticket
+item1.TEL;waid=917983833409:+91 79838 33409
+item1.X-ABLabel:Mobile
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:Nt;Waseem;;;
+FN:Waseem Nt
+item1.TEL;waid=917456053637:+91 74560 53637
+item1.X-ABLabel:Mobile
+END:VCARD
