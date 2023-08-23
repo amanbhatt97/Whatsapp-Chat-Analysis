@@ -5,12 +5,33 @@ import preprocessor, helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# title in sidebar
-st.sidebar.title("Whatsapp Chat Analyser")
+
+st.sidebar.info("Welcome to the Whastapp Chat Analyzer dashboard! Explore the group or one-to-one conversations.")
+
+# Define page layout
+col1, col2 = st.columns([1, 4])
+with col2:
+    st.title('Whatsapp Chat Analysis')
 
 
-# file to upload for analysis
-uploaded_file = st.sidebar.file_uploader("Choose a file")
+# Define usage instructions as a string
+usage_instructions = """
+**How to Use:**
+1. Go to any whatsapp one-to-one or group chat.
+2. Click on Export chat option and select without media option. A chat file will be downloaded.
+3. If the downloaded file is in zip, extract it into text (.txt) file.
+4. Open the streamlit app and click 'Browse files' button to upload your WhatsApp chat export (.txt) file.
+5. Wait for the analysis to load. Explore the chat insights and visualizations on the main page.
+
+"""
+
+with st.sidebar:
+    st.markdown("---")
+
+    # file to upload for analysis
+    uploaded_file = st.sidebar.file_uploader("Choose a file")
+
+    st.markdown("---")
 
 
 if uploaded_file is not None:
@@ -39,6 +60,8 @@ if uploaded_file is not None:
     # sidebar to select user
     selected_user = st.sidebar.selectbox("Show Analysis with", user_list)
 
+    st.sidebar.markdown("---")
+    
 
     # ------------ display messages ------------ # 
 
@@ -203,3 +226,21 @@ if uploaded_file is not None:
     #     fig,ax = plt.subplots()
     #     ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
     #     st.pyplot(fig)
+
+with st.sidebar:
+    show_instructions = st.button('Usage Instructions')
+    # Display usage instructions when the button is clicked
+    if show_instructions:
+        st.sidebar.markdown(usage_instructions)
+        st.sidebar.markdown("---")
+
+
+with st.container():
+    st.markdown("---")
+    st.subheader("About the Dashboard")
+    st.markdown("This dashboard provides whatsapp chat analysis for group as well as for one-to-one conversations.")
+    st.markdown("You can export the chat and upload the text file.")
+    st.markdown("Click on Usage Instructions for elaborate instructions.") 
+    st.markdown("---")
+    st.subheader("Contact Information")
+    st.markdown("For more information, please contact at: [amanbhatt.1997.ab@gmail.com](mailto:support@example.com)")
