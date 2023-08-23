@@ -51,7 +51,7 @@ if uploaded_file is not None:
 
     # for overall:
     else:
-        st.title('All Group Messages')
+        st.title('All Messages')
     
     # display messages
     st.dataframe(all_messages) 
