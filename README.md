@@ -40,7 +40,7 @@ Explore the generated statistics, visualizations, and insights.
 ## Web App
 
 Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).<br>
-If the above link doesn't work properly, copy the following link and paste on another window: https://chat-analysis-whatsapp.streamlit.app/
+If the above app is non-responsive, copy the following link and paste on another window: https://chat-analysis-whatsapp.streamlit.app/
 
 ## Portfolio
 
