@@ -37,7 +37,7 @@ Explore the generated statistics, visualizations, and insights.
 
 ## Web App
 
-Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).
+Access the deployed Streamlit web app [here]([https://chat-analysis-whatsapp.streamlit.app/](https://chat-analysis-whatsapp.streamlit.app/)).
 
 ## Contact
 
