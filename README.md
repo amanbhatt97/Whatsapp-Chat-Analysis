@@ -35,5 +35,13 @@ Launch the Streamlit app by running the app.py script.
 Follow the on-screen instructions to upload your WhatsApp chat export file.
 Explore the generated statistics, visualizations, and insights.
 
-## Contributing
-Contributions are welcome! If you have ideas, suggestions, or want to fix a bug, feel free to open an issue or submit a pull request.
+## Web App
+
+Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).
+
+## Contact
+
+For any questions or suggestions, please contact:
+
+Aman Bhatt  
+Email: amanbhatt.1997.ab@gmail.com
