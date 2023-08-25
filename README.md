@@ -2,13 +2,15 @@
 
 Welcome to the WhatsApp Chat Analysis repository! This project provides a tool for analyzing and visualizing WhatsApp chat conversations. Whether it's a group chat or a one-to-one conversation, this tool allows you to gain insights and explore trends within your chat data.
 
+Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).<br>
+If the above app is non-responsive, copy the following link and paste on another window: https://chat-analysis-whatsapp.streamlit.app/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Web App](#web-app)
 - [Portfolio](#portfolio)
 - [Contact](#contact)
 
@@ -28,19 +30,14 @@ WhatsApp Chat Analysis is a Python-based project that uses the power of Streamli
 
 ## Getting Started
 
-1. Clone this repository to your local machine: git clone https://github.com/amanbhatt97/whatsapp-chat-analysis.git
-2. Install the required Python packages using pip: pip install -r requirements.txt
-3. Run the Streamlit app: streamlit run app.py
+1. Clone this repository to your local machine: `git clone https://github.com/amanbhatt97/whatsapp-chat-analysis.git`
+2. Install the required Python packages using `pip`: pip install -r requirements.txt
+3. Run the Streamlit app: `streamlit run app.py`
 
 ## Usage
 Launch the Streamlit app by running the app.py script.
 Follow the on-screen instructions to upload your WhatsApp chat export file.
 Explore the generated statistics, visualizations, and insights.
-
-## Web App
-
-Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).<br>
-If the above app is non-responsive, copy the following link and paste on another window: https://chat-analysis-whatsapp.streamlit.app/
 
 ## Portfolio
 
