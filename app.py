@@ -13,18 +13,6 @@ col1, col2 = st.columns([1, 4])
 with col2:
     st.title('Whatsapp Chat Analysis')
 
-
-# Define usage instructions as a string
-usage_instructions = """
-**How to Use:**
-1. Go to any whatsapp one-to-one or group chat.
-2. Click on Export chat option and select without media option. A chat file will be downloaded.
-3. If the downloaded file is in zip, extract it into text (.txt) file.
-4. Open the streamlit app and click 'Browse files' button to upload your WhatsApp chat export (.txt) file.
-5. Wait for the analysis to load. Explore the chat insights and visualizations on the main page.
-
-"""
-
 with st.sidebar:
     st.markdown("---")
 
@@ -227,12 +215,18 @@ if uploaded_file is not None:
     #     ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
     #     st.pyplot(fig)
 
-with st.sidebar:
-    show_instructions = st.button('Usage Instructions')
-    # Display usage instructions when the button is clicked
-    if show_instructions:
-        st.sidebar.markdown(usage_instructions)
-        st.sidebar.markdown("---")
+else:
+    # Define usage instructions as a string
+    usage_instructions = """
+    1. Go to any whatsapp one-to-one or group chat.
+    2. Click on Export chat option and select without media option. A chat file will be downloaded.
+    3. If the downloaded file is in zip, extract it into text (.txt) file.
+    4. Open the streamlit app and click 'Browse files' button to upload your WhatsApp chat export (.txt) file.
+    5. Wait for the analysis to load. Explore the chat insights and visualizations on the main page.
+    """
+
+    st.subheader('User Instructions')
+    st.markdown(usage_instructions)
 
 
 with st.container():
@@ -243,9 +237,9 @@ with st.container():
     st.markdown("Click on Usage Instructions for elaborate instructions.") 
     st.markdown("---")
     st.subheader("Contact Information")
-    st.markdown("For more information, please contact at:")
-    st.markdown("Mail: [amanbhatt.1997.ab@gmail.com](mailto:support@example.com)")
-    st.markdown("Portfolio: https://amanbhatt97.github.io/portfolio/")
-    st.markdown("Linkedin: https://www.linkedin.com/in/amanbhatt1997/")
-    st.markdown("Github: https://github.com/amanbhatt97")
+    st.markdown("Feel free to reach out to me if you have any questions or feedback. You can find me on:")
+    st.markdown("Mail: [amanbhatt.1997.ab@gmail.com](mailto:amanbhatt.1997.ab@gmail.com)")
+    st.markdown("Linkedin: [amanbhatt97](https://www.linkedin.com/in/amanbhatt1997/)")
+    st.markdown("Github: [amanbhatt97](https://github.com/amanbhatt97)")
+    st.markdown("Checkout my portfolio [here](https://amanbhatt97.github.io/portfolio/).")
     st.markdown("---")
