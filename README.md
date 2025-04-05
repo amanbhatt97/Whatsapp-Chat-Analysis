@@ -2,7 +2,7 @@
 
 Welcome to the WhatsApp Chat Analysis repository! This project provides a tool for analyzing and visualizing WhatsApp chat conversations. Whether it's a group chat or a one-to-one conversation, this tool allows you to gain insights and explore trends within your chat data.
 
-Access the deployed Streamlit web app [here](https://chat-analysis-whatsapp.streamlit.app/).<br>
+Access the deployed Streamlit web app [here]([https://chat-analysis-whatsapp.streamlit.app/](https://chat-analysis-whatsapp.streamlit.app/)).<br>
 If the above app is non-responsive, copy the following link and paste on another window: https://chat-analysis-whatsapp.streamlit.app/
 
 ## Table of Contents
